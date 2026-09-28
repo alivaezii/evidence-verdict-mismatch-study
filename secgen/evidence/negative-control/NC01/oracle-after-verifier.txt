@@ -1,0 +1,6 @@
+run_id=SECGEN-NC01
+stage=ORACLE_AFTER_VERIFIER
+timestamp_utc=2026-09-28T16:05:22Z
+=== MYSQLD-MATCHING PROCESSES ===
+=== DECOY ARTIFACT ===
+decoy_symlink=ABSENT

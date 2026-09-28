@@ -1,0 +1,10 @@
+run_id=SECGEN-NC01
+stage=VERIFIER
+start_utc=2026-09-28T16:03:22Z
+command=cd /root/research-systems/SecGen && bundle exec ruby /root/evidence-verdict-study/provenance/secgen/generated/mysql_stretch_minimal/puppet/mysql_stretch_test/modules/mysql/secgen_test/mysql_stretch_compatible.rb
+=== VERIFIER OUTPUT ===
+Running tests for mysql_stretch_compatible
+FAILED: mysqld process running? local command (ps -ef | grep mysqld) matches with output (/usr/sbin/mysqld) on mysql_stretch_test!
+
+exit_status=1
+end_utc=2026-09-28T16:03:31Z
