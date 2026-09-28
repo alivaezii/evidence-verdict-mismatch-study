@@ -1,0 +1,8 @@
+run_id=SECGEN-O-POSITIVE
+capture_start_utc=2026-09-28T14:45:36Z
+=== PROCESS STATE ===
+mysql    17627     1  0 14:37 ?        00:00:02 /usr/sbin/mysqld
+=== ORACLE: EXECUTABLE IDENTITY ===
+PID=17627
+/usr/sbin/mysqld
+capture_end_utc=2026-09-28T14:45:52Z

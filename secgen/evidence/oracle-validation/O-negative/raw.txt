@@ -1,0 +1,5 @@
+run_id=SECGEN-O-NEGATIVE
+capture_start_utc=2026-09-28T14:49:26Z
+=== PROCESS STATE ===
+=== ORACLE: EXECUTABLE IDENTITY ===
+capture_end_utc=2026-09-28T14:49:43Z
