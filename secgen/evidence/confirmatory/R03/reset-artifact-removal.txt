@@ -1,0 +1,4 @@
+run_id=SECGEN-R03
+stage=RESET_ARTIFACT_REMOVAL
+timestamp_utc=2026-09-28T15:58:53Z
+decoy_symlink=ABSENT
