@@ -2,3 +2,4 @@ run_id,system,run_type,start_utc,end_utc,verdict,claim_holds,scientific_outcome,
 SECGEN-O-POSITIVE,SecGen,O_POSITIVE,2026-09-28T14:45:36Z,2026-09-28T14:45:52Z,,TRUE,,secgen/evidence/oracle-validation/O-positive/raw.txt,NONE
 SECGEN-O-NEGATIVE,SecGen,O_NEGATIVE,2026-09-28T14:49:26Z,2026-09-28T14:49:43Z,,FALSE,,secgen/evidence/oracle-validation/O-negative/raw.txt,NONE
 SECGEN-R01,SecGen,CONFIRMATORY,2026-09-28T15:34:35Z,2026-09-28T15:34:44Z,PASSED,FALSE,MISMATCH,secgen/evidence/confirmatory/R01/,NONE
+SECGEN-R02,SecGen,CONFIRMATORY,2026-09-28T15:43:41Z,2026-09-28T15:43:49Z,PASSED,FALSE,MISMATCH,secgen/evidence/confirmatory/R02/,NONE
