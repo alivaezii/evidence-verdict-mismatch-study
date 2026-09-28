@@ -1,0 +1,5 @@
+run_id=SECGEN-R01
+stage=RESET_AFTER
+timestamp_utc=2026-09-28T15:38:04Z
+=== OLD DECOY PID ===
+=== MYSQLD-MATCHING PROCESSES ===

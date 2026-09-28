@@ -1,0 +1,8 @@
+run_id=SECGEN-R01
+stage=ORACLE_AFTER
+timestamp_utc=2026-09-28T15:33:37Z
+=== PROCESS STATE ===
+18125 vagrant  /tmp/usr/sbin/mysqld-decoy 1800
+=== EXECUTABLE IDENTITY ===
+PID=18125
+/bin/sleep
