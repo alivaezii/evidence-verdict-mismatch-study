@@ -1,0 +1,9 @@
+validation_id=KING-O+
+phase=reset-after
+timestamp_utc=2026-09-29T09:39:04Z
+target=10.0.0.139
+
+=== TCP reachability after baseline restoration ===
+tcp_22=REACHABLE
+tcp_23=REACHABLE
+tcp_2323=NOT_REACHABLE

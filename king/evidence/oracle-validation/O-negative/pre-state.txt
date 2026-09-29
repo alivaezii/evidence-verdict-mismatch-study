@@ -1,0 +1,9 @@
+validation_id=KING-O-
+phase=pre-state
+timestamp_utc=2026-09-29T09:41:05Z
+target=10.0.0.139
+
+=== TCP reachability in O- baseline condition ===
+tcp_22=REACHABLE
+tcp_23=REACHABLE
+tcp_2323=NOT_REACHABLE

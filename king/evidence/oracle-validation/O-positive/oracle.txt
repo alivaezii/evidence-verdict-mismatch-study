@@ -1,0 +1,15 @@
+validation_id=KING-O+
+phase=behavioral-oracle
+timestamp_utc=2026-09-29T09:35:26Z
+target=10.0.0.139
+
+=== Behavioral oracle: TCP 23 ===
+telnet: Unable to connect to remote host: Connection refused
+Trying 10.0.0.139...
+telnet_exit_code=1
+
+=== Behavioral oracle: TCP 2323 ===
+telnet: Unable to connect to remote host: Connection refused
+Trying 10.0.0.139...
+telnet_exit_code=1
+
