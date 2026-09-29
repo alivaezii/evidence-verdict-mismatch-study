@@ -1,0 +1,17 @@
+run_id=NC01
+record=oracle-after-verifier
+timestamp_utc=2026-09-29T10:41:12+00:00
+target=10.0.0.139
+
+=== SSH 22 ===
+SSH_22_REACHABLE=TRUE
+
+=== TELNET 23 ===
+telnet: Unable to connect to remote host: Connection refused
+Trying 10.0.0.139...
+
+=== TELNET 2323 ===
+telnet: Unable to connect to remote host: Connection refused
+Trying 10.0.0.139...
+
+timestamp_after_utc=2026-09-29T10:41:12+00:00

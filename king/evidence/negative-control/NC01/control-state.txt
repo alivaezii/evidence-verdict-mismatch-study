@@ -1,0 +1,12 @@
+run_id=NC01
+record=control-state
+timestamp_utc=2026-09-29T10:39:52+00:00
+target=10.0.0.139
+control=genuine removal of Challenge 2 Telnet service
+
+--- INETD CONFIG ---
+23:#<off># telnet	stream	tcp	nowait	root	/usr/sbin/tcpd	/usr/sbin/telnetd
+40:# KING-NC01 telnet stream tcp nowait backdoor /usr/sbin/telnetd telnetd -E /usr/local/bin/telnet-shell.sh
+--- LISTENERS ---
+LISTEN 0      128          0.0.0.0:22        0.0.0.0:*    users:(("sshd",pid=679,fd=3))  
+LISTEN 0      128             [::]:22           [::]:*    users:(("sshd",pid=679,fd=4))  

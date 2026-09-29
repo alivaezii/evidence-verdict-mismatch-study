@@ -1,0 +1,9 @@
+run_id=NC01
+record=verifier
+timestamp_utc=2026-09-29T10:40:14+00:00
+target=10.0.0.139
+verifier=KING Challenge 2 native verifier
+source_revision=83b6d8f8a98e2c12462db62adaf88e95eb616114
+timestamp_after_utc=2026-09-29T10:40:49+00:00
+native_verdict=POSITIVE
+ui_message=Fix erfolgreich durchgeführt!
