@@ -1,0 +1,9 @@
+condition=O-positive
+timestamp_utc=2026-09-29T15:32:05.220330+00:00
+input=CRCZ-NATIVE-BPLUS-commands.json
+input_sha256=df67a5562e7fd49f6568128bc7336910775f6363520d49cbb33cd5d99fdc63a1
+RHOST_present=true
+RPORT_present=true
+LHOST_present=true
+exploit_present=true
+claim_holds=true

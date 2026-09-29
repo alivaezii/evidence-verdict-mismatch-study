@@ -1,0 +1,9 @@
+condition=O-negative
+timestamp_utc=2026-09-29T15:34:01.314541+00:00
+input=CRCZ-NATIVE-BMINUS-commands.json
+input_sha256=b58a8108142443a331687683b98f01646a51144639a10691d8255df5d1c6ade7
+RHOST_present=true
+RPORT_present=false
+LHOST_present=true
+exploit_present=true
+claim_holds=false
