@@ -1,0 +1,1 @@
+RUN_ID=CYBERRANGECZ-CRCZ-V001-P001-CONF-R02 reset=fresh_service prime_green=true verifier_green=true yellow_attempt=false input=FROZEN_NATIVE_BMINUS
