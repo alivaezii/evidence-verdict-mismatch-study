@@ -1,6 +1,5 @@
-<p align="center">
-  ![Uploading banner.png…]()
-</p>
+<img width="2171" height="724" alt="banner" src="https://github.com/user-attachments/assets/49f00da0-d77e-4312-87d0-c00b2f58051d" />
+
 
 <h1 align="center">Evidence–Verdict Mismatches</h1>
 
