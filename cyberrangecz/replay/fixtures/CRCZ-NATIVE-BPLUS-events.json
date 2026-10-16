@@ -1,0 +1,12 @@
+[
+  {
+    "level": 4001,
+    "sandbox_id": "crcz-native-bplus",
+    "training_run_id": 9101,
+    "training_instance_id": 9002,
+    "training_definition_id": 9001,
+    "user_ref_id": 7001,
+    "type": "cz.cyberrange.platform.events.trainings.LevelStarted",
+    "timestamp": "2026-01-01T10:00:00"
+  }
+]

