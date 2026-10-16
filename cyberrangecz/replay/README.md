@@ -94,4 +94,3 @@ The accompanying `SHA256SUMS` file records the hashes of all six replay inputs. 
 ## Attribution
 
 The original CyberRangeCZ backend is developed by its respective copyright holders, including Masaryk University and CyberSecurity Hub, z.s., and is distributed under the MIT license. The upstream copyright and permission notices must be preserved when redistributing upstream code.
- EOF 
