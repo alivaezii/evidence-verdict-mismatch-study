@@ -1,0 +1,289 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------< [0;36mcz.cybersecurityhub.maven:training-feedback[0;1m >-------------[m
+[[1;34mINFO[m] [1mBuilding CyberRangeCZ Platform Training Feedback 1.2.0[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspotless-maven-plugin:2.46.1:apply[m [1m(spotless-check)[m @ [36mtraining-feedback[0;1m ---[m
+[[1;34mINFO[m] Spotless apply skipped
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapt-maven-plugin:1.1.3:process[m [1m(default)[m @ [36mtraining-feedback[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:resources[m [1m(default-resources)[m @ [36mtraining-feedback[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 55 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.14.0:compile[m [1m(default-compile)[m @ [36mtraining-feedback[0;1m ---[m
+[[1;34mINFO[m] Recompiling the module because of [1mchanged source code[m.
+[[1;34mINFO[m] Compiling 102 source files with javac [debug parameters release 17] to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mswagger-maven-plugin:3.1.8:generate[m [1m(default)[m @ [36mtraining-feedback[0;1m ---[m
+[[1;34mINFO[m] Swagger generation is skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:testResources[m [1m(default-testResources)[m @ [36mtraining-feedback[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 5 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.14.0:testCompile[m [1m(default-testCompile)[m @ [36mtraining-feedback[0;1m ---[m
+[[1;34mINFO[m] Recompiling the module because of [1mchanged dependency[m.
+[[1;34mINFO[m] Compiling 2 source files with javac [debug parameters release 17] to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.5.3:test[m [1m(default-test)[m @ [36mtraining-feedback[0;1m ---[m
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running cz.cyberrange.platform.training.feedback.service.graph.[1mTraineeGraphStateAuditTest[m
+07:45:43.001 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Invoking method 'init' on target object [cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService@5e9456ae] or target class [null] with arguments {}
+07:45:43.082 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command back loaded successfully.
+07:45:43.082 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command banner loaded successfully.
+07:45:43.084 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command cat loaded successfully.
+07:45:43.084 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command check loaded successfully.
+07:45:43.086 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command chmod loaded successfully.
+07:45:43.087 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command clear loaded successfully.
+07:45:43.087 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command color loaded successfully.
+07:45:43.088 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command connect loaded successfully.
+07:45:43.094 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command curl loaded successfully.
+07:45:43.095 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command echo loaded successfully.
+07:45:43.095 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command edit loaded successfully.
+07:45:43.095 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command exit loaded successfully.
+07:45:43.096 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command find loaded successfully.
+07:45:43.097 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command git loaded successfully.
+07:45:43.098 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command grep loaded successfully.
+07:45:43.098 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command grep loaded successfully.
+07:45:43.099 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command help loaded successfully.
+07:45:43.100 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ifconfig loaded successfully.
+07:45:43.100 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command info loaded successfully.
+07:45:43.100 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command irb loaded successfully.
+07:45:43.101 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command jobs loaded successfully.
+07:45:43.101 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command kill loaded successfully.
+07:45:43.102 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command less loaded successfully.
+07:45:43.102 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command load loaded successfully.
+07:45:43.103 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command loadpath loaded successfully.
+07:45:43.103 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command locate loaded successfully.
+07:45:43.104 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ls loaded successfully.
+07:45:43.105 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command msfconsole loaded successfully.
+07:45:43.105 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command netstat loaded successfully.
+07:45:43.106 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ping loaded successfully.
+07:45:43.106 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command python loaded successfully.
+07:45:43.107 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command resource loaded successfully.
+07:45:43.107 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command route loaded successfully.
+07:45:43.107 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command run loaded successfully.
+07:45:43.108 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command scp loaded successfully.
+07:45:43.108 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command search loaded successfully.
+07:45:43.108 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sessions loaded successfully.
+07:45:43.109 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command set loaded successfully.
+07:45:43.109 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command setg loaded successfully.
+07:45:43.109 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sftp-server loaded successfully.
+07:45:43.110 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sftp loaded successfully.
+07:45:43.110 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command show loaded successfully.
+07:45:43.110 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ssh-add loaded successfully.
+07:45:43.111 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ssh-agent loaded successfully.
+07:45:43.111 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ssh loaded successfully.
+07:45:43.111 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sshd loaded successfully.
+07:45:43.112 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sudo loaded successfully.
+07:45:43.112 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command touch loaded successfully.
+07:45:43.112 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command unload loaded successfully.
+07:45:43.112 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command unset loaded successfully.
+07:45:43.113 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command use loaded successfully.
+07:45:43.113 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command vim loaded successfully.
+07:45:43.127 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Getting field 'achievedNodesLabels' from target object [cz.cyberrange.platform.training.feedback.service.graph.TraineeGraphService@6de0f580] or target class [class cz.cyberrange.platform.training.feedback.service.graph.TraineeGraphService]
+STATE_AUDIT R01 BEFORE_BPLUS=[]
+07:45:43.202 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Getting field 'achievedNodesLabels' from target object [cz.cyberrange.platform.training.feedback.service.graph.TraineeGraphService@6de0f580] or target class [class cz.cyberrange.platform.training.feedback.service.graph.TraineeGraphService]
+STATE_AUDIT R01 AFTER_BPLUS=[metasploit_opened, used_webmin_backdoor, rhost_set, rport_set, lhost_set, exploited_by_exploit, found_hidden_flag]
+07:45:43.209 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Getting field 'achievedNodesLabels' from target object [cz.cyberrange.platform.training.feedback.service.graph.TraineeGraphService@6de0f580] or target class [class cz.cyberrange.platform.training.feedback.service.graph.TraineeGraphService]
+STATE_AUDIT R01 AFTER_BMINUS=[metasploit_opened, used_webmin_backdoor, rhost_set, rport_set, lhost_set, exploited_by_exploit, found_hidden_flag, metasploit_opened, used_webmin_backdoor, rhost_set, lhost_set, exploited_by_exploit, rport_set, found_hidden_flag]
+STATE_AUDIT R01 RETAINED_FROM_BPLUS=true
+RUN_ID=CYBERRANGECZ-CRCZ-V001-P001-CONF-R01 reset=fresh_service prime_green=true verifier_green=true yellow_attempt=false input=FROZEN_NATIVE_BMINUS
+07:45:43.218 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Invoking method 'init' on target object [cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService@c6da8bb] or target class [null] with arguments {}
+07:45:43.229 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command back loaded successfully.
+07:45:43.229 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command banner loaded successfully.
+07:45:43.229 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command cat loaded successfully.
+07:45:43.229 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command check loaded successfully.
+07:45:43.230 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command chmod loaded successfully.
+07:45:43.230 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command clear loaded successfully.
+07:45:43.230 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command color loaded successfully.
+07:45:43.230 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command connect loaded successfully.
+07:45:43.232 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command curl loaded successfully.
+07:45:43.232 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command echo loaded successfully.
+07:45:43.232 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command edit loaded successfully.
+07:45:43.232 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command exit loaded successfully.
+07:45:43.232 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command find loaded successfully.
+07:45:43.233 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command git loaded successfully.
+07:45:43.233 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command grep loaded successfully.
+07:45:43.233 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command grep loaded successfully.
+07:45:43.234 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command help loaded successfully.
+07:45:43.234 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ifconfig loaded successfully.
+07:45:43.234 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command info loaded successfully.
+07:45:43.234 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command irb loaded successfully.
+07:45:43.234 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command jobs loaded successfully.
+07:45:43.235 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command kill loaded successfully.
+07:45:43.235 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command less loaded successfully.
+07:45:43.235 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command load loaded successfully.
+07:45:43.236 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command loadpath loaded successfully.
+07:45:43.236 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command locate loaded successfully.
+07:45:43.236 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ls loaded successfully.
+07:45:43.237 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command msfconsole loaded successfully.
+07:45:43.237 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command netstat loaded successfully.
+07:45:43.237 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ping loaded successfully.
+07:45:43.238 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command python loaded successfully.
+07:45:43.238 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command resource loaded successfully.
+07:45:43.238 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command route loaded successfully.
+07:45:43.238 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command run loaded successfully.
+07:45:43.239 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command scp loaded successfully.
+07:45:43.239 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command search loaded successfully.
+07:45:43.239 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sessions loaded successfully.
+07:45:43.239 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command set loaded successfully.
+07:45:43.239 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command setg loaded successfully.
+07:45:43.240 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sftp-server loaded successfully.
+07:45:43.240 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sftp loaded successfully.
+07:45:43.240 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command show loaded successfully.
+07:45:43.240 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ssh-add loaded successfully.
+07:45:43.241 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ssh-agent loaded successfully.
+07:45:43.241 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ssh loaded successfully.
+07:45:43.241 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sshd loaded successfully.
+07:45:43.242 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sudo loaded successfully.
+07:45:43.242 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command touch loaded successfully.
+07:45:43.242 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command unload loaded successfully.
+07:45:43.242 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command unset loaded successfully.
+07:45:43.242 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command use loaded successfully.
+07:45:43.243 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command vim loaded successfully.
+07:45:43.243 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Getting field 'achievedNodesLabels' from target object [cz.cyberrange.platform.training.feedback.service.graph.TraineeGraphService@3bae64d0] or target class [class cz.cyberrange.platform.training.feedback.service.graph.TraineeGraphService]
+STATE_AUDIT R02 BEFORE_BPLUS=[]
+07:45:43.249 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Getting field 'achievedNodesLabels' from target object [cz.cyberrange.platform.training.feedback.service.graph.TraineeGraphService@3bae64d0] or target class [class cz.cyberrange.platform.training.feedback.service.graph.TraineeGraphService]
+STATE_AUDIT R02 AFTER_BPLUS=[metasploit_opened, used_webmin_backdoor, rhost_set, rport_set, lhost_set, exploited_by_exploit, found_hidden_flag]
+07:45:43.253 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Getting field 'achievedNodesLabels' from target object [cz.cyberrange.platform.training.feedback.service.graph.TraineeGraphService@3bae64d0] or target class [class cz.cyberrange.platform.training.feedback.service.graph.TraineeGraphService]
+STATE_AUDIT R02 AFTER_BMINUS=[metasploit_opened, used_webmin_backdoor, rhost_set, rport_set, lhost_set, exploited_by_exploit, found_hidden_flag, metasploit_opened, used_webmin_backdoor, rhost_set, lhost_set, exploited_by_exploit, rport_set, found_hidden_flag]
+STATE_AUDIT R02 RETAINED_FROM_BPLUS=true
+RUN_ID=CYBERRANGECZ-CRCZ-V001-P001-CONF-R02 reset=fresh_service prime_green=true verifier_green=true yellow_attempt=false input=FROZEN_NATIVE_BMINUS
+07:45:43.253 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Invoking method 'init' on target object [cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService@1816e24a] or target class [null] with arguments {}
+07:45:43.263 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command back loaded successfully.
+07:45:43.264 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command banner loaded successfully.
+07:45:43.264 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command cat loaded successfully.
+07:45:43.264 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command check loaded successfully.
+07:45:43.264 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command chmod loaded successfully.
+07:45:43.265 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command clear loaded successfully.
+07:45:43.265 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command color loaded successfully.
+07:45:43.265 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command connect loaded successfully.
+07:45:43.266 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command curl loaded successfully.
+07:45:43.266 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command echo loaded successfully.
+07:45:43.266 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command edit loaded successfully.
+07:45:43.267 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command exit loaded successfully.
+07:45:43.267 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command find loaded successfully.
+07:45:43.267 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command git loaded successfully.
+07:45:43.267 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command grep loaded successfully.
+07:45:43.268 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command grep loaded successfully.
+07:45:43.268 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command help loaded successfully.
+07:45:43.268 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ifconfig loaded successfully.
+07:45:43.268 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command info loaded successfully.
+07:45:43.268 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command irb loaded successfully.
+07:45:43.269 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command jobs loaded successfully.
+07:45:43.269 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command kill loaded successfully.
+07:45:43.269 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command less loaded successfully.
+07:45:43.269 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command load loaded successfully.
+07:45:43.270 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command loadpath loaded successfully.
+07:45:43.270 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command locate loaded successfully.
+07:45:43.270 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ls loaded successfully.
+07:45:43.270 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command msfconsole loaded successfully.
+07:45:43.271 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command netstat loaded successfully.
+07:45:43.271 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ping loaded successfully.
+07:45:43.271 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command python loaded successfully.
+07:45:43.272 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command resource loaded successfully.
+07:45:43.272 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command route loaded successfully.
+07:45:43.272 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command run loaded successfully.
+07:45:43.272 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command scp loaded successfully.
+07:45:43.272 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command search loaded successfully.
+07:45:43.273 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sessions loaded successfully.
+07:45:43.273 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command set loaded successfully.
+07:45:43.273 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command setg loaded successfully.
+07:45:43.273 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sftp-server loaded successfully.
+07:45:43.273 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sftp loaded successfully.
+07:45:43.274 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command show loaded successfully.
+07:45:43.274 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ssh-add loaded successfully.
+07:45:43.274 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ssh-agent loaded successfully.
+07:45:43.274 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ssh loaded successfully.
+07:45:43.275 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sshd loaded successfully.
+07:45:43.275 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sudo loaded successfully.
+07:45:43.275 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command touch loaded successfully.
+07:45:43.275 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command unload loaded successfully.
+07:45:43.276 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command unset loaded successfully.
+07:45:43.276 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command use loaded successfully.
+07:45:43.276 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command vim loaded successfully.
+07:45:43.277 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Getting field 'achievedNodesLabels' from target object [cz.cyberrange.platform.training.feedback.service.graph.TraineeGraphService@6940f685] or target class [class cz.cyberrange.platform.training.feedback.service.graph.TraineeGraphService]
+STATE_AUDIT R03 BEFORE_BPLUS=[]
+07:45:43.281 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Getting field 'achievedNodesLabels' from target object [cz.cyberrange.platform.training.feedback.service.graph.TraineeGraphService@6940f685] or target class [class cz.cyberrange.platform.training.feedback.service.graph.TraineeGraphService]
+STATE_AUDIT R03 AFTER_BPLUS=[metasploit_opened, used_webmin_backdoor, rhost_set, rport_set, lhost_set, exploited_by_exploit, found_hidden_flag]
+07:45:43.285 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Getting field 'achievedNodesLabels' from target object [cz.cyberrange.platform.training.feedback.service.graph.TraineeGraphService@6940f685] or target class [class cz.cyberrange.platform.training.feedback.service.graph.TraineeGraphService]
+STATE_AUDIT R03 AFTER_BMINUS=[metasploit_opened, used_webmin_backdoor, rhost_set, rport_set, lhost_set, exploited_by_exploit, found_hidden_flag, metasploit_opened, used_webmin_backdoor, rhost_set, lhost_set, exploited_by_exploit, rport_set, found_hidden_flag]
+STATE_AUDIT R03 RETAINED_FROM_BPLUS=true
+RUN_ID=CYBERRANGECZ-CRCZ-V001-P001-CONF-R03 reset=fresh_service prime_green=true verifier_green=true yellow_attempt=false input=FROZEN_NATIVE_BMINUS
+07:45:43.286 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Invoking method 'init' on target object [cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService@47b179d7] or target class [null] with arguments {}
+07:45:43.295 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command back loaded successfully.
+07:45:43.295 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command banner loaded successfully.
+07:45:43.295 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command cat loaded successfully.
+07:45:43.295 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command check loaded successfully.
+07:45:43.296 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command chmod loaded successfully.
+07:45:43.296 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command clear loaded successfully.
+07:45:43.296 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command color loaded successfully.
+07:45:43.296 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command connect loaded successfully.
+07:45:43.297 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command curl loaded successfully.
+07:45:43.297 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command echo loaded successfully.
+07:45:43.297 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command edit loaded successfully.
+07:45:43.297 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command exit loaded successfully.
+07:45:43.298 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command find loaded successfully.
+07:45:43.298 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command git loaded successfully.
+07:45:43.298 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command grep loaded successfully.
+07:45:43.298 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command grep loaded successfully.
+07:45:43.298 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command help loaded successfully.
+07:45:43.299 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ifconfig loaded successfully.
+07:45:43.299 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command info loaded successfully.
+07:45:43.299 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command irb loaded successfully.
+07:45:43.299 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command jobs loaded successfully.
+07:45:43.299 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command kill loaded successfully.
+07:45:43.300 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command less loaded successfully.
+07:45:43.300 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command load loaded successfully.
+07:45:43.300 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command loadpath loaded successfully.
+07:45:43.300 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command locate loaded successfully.
+07:45:43.301 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ls loaded successfully.
+07:45:43.301 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command msfconsole loaded successfully.
+07:45:43.301 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command netstat loaded successfully.
+07:45:43.302 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ping loaded successfully.
+07:45:43.302 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command python loaded successfully.
+07:45:43.302 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command resource loaded successfully.
+07:45:43.302 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command route loaded successfully.
+07:45:43.302 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command run loaded successfully.
+07:45:43.303 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command scp loaded successfully.
+07:45:43.303 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command search loaded successfully.
+07:45:43.303 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sessions loaded successfully.
+07:45:43.303 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command set loaded successfully.
+07:45:43.303 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command setg loaded successfully.
+07:45:43.303 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sftp-server loaded successfully.
+07:45:43.304 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sftp loaded successfully.
+07:45:43.304 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command show loaded successfully.
+07:45:43.304 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ssh-add loaded successfully.
+07:45:43.304 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ssh-agent loaded successfully.
+07:45:43.305 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ssh loaded successfully.
+07:45:43.305 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sshd loaded successfully.
+07:45:43.305 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sudo loaded successfully.
+07:45:43.305 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command touch loaded successfully.
+07:45:43.305 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command unload loaded successfully.
+07:45:43.306 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command unset loaded successfully.
+07:45:43.306 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command use loaded successfully.
+07:45:43.306 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command vim loaded successfully.
+RUN_ID=CYBERRANGECZ-CRCZ-V001-P001-CONF-NC01 reset=fresh_service_no_prime verifier_green=false yellow_attempt=true input=FROZEN_NATIVE_BMINUS
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.109 s -- in cz.cyberrange.platform.training.feedback.service.graph.[1mTraineeGraphStateAuditTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 1, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  9.193 s
+[[1;34mINFO[m] Finished at: 2026-10-19T07:45:43Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

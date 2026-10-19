@@ -1,0 +1,264 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------< [0;36mcz.cybersecurityhub.maven:training-feedback[0;1m >-------------[m
+[[1;34mINFO[m] [1mBuilding CyberRangeCZ Platform Training Feedback 1.2.0[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspotless-maven-plugin:2.46.1:apply[m [1m(spotless-check)[m @ [36mtraining-feedback[0;1m ---[m
+[[1;34mINFO[m] Spotless apply skipped
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapt-maven-plugin:1.1.3:process[m [1m(default)[m @ [36mtraining-feedback[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:resources[m [1m(default-resources)[m @ [36mtraining-feedback[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 55 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.14.0:compile[m [1m(default-compile)[m @ [36mtraining-feedback[0;1m ---[m
+[[1;34mINFO[m] Recompiling the module because of [1mchanged source code[m.
+[[1;34mINFO[m] Compiling 102 source files with javac [debug parameters release 17] to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mswagger-maven-plugin:3.1.8:generate[m [1m(default)[m @ [36mtraining-feedback[0;1m ---[m
+[[1;34mINFO[m] Swagger generation is skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:testResources[m [1m(default-testResources)[m @ [36mtraining-feedback[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 5 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.14.0:testCompile[m [1m(default-testCompile)[m @ [36mtraining-feedback[0;1m ---[m
+[[1;34mINFO[m] Recompiling the module because of [1mchanged dependency[m.
+[[1;34mINFO[m] Compiling 5 source files with javac [debug parameters release 17] to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.5.3:test[m [1m(default-test)[m @ [36mtraining-feedback[0;1m ---[m
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running cz.cyberrange.platform.training.feedback.service.graph.[1mTraineeGraphSpringCausalTest[m
+07:55:02.471 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Invoking method 'init' on target object [cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService@77bd7fe7] or target class [null] with arguments {}
+07:55:02.538 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command back loaded successfully.
+07:55:02.539 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command banner loaded successfully.
+07:55:02.540 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command cat loaded successfully.
+07:55:02.540 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command check loaded successfully.
+07:55:02.542 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command chmod loaded successfully.
+07:55:02.543 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command clear loaded successfully.
+07:55:02.543 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command color loaded successfully.
+07:55:02.544 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command connect loaded successfully.
+07:55:02.550 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command curl loaded successfully.
+07:55:02.550 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command echo loaded successfully.
+07:55:02.550 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command edit loaded successfully.
+07:55:02.550 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command exit loaded successfully.
+07:55:02.551 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command find loaded successfully.
+07:55:02.552 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command git loaded successfully.
+07:55:02.553 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command grep loaded successfully.
+07:55:02.554 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command grep loaded successfully.
+07:55:02.554 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command help loaded successfully.
+07:55:02.555 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ifconfig loaded successfully.
+07:55:02.555 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command info loaded successfully.
+07:55:02.555 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command irb loaded successfully.
+07:55:02.555 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command jobs loaded successfully.
+07:55:02.555 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command kill loaded successfully.
+07:55:02.556 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command less loaded successfully.
+07:55:02.557 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command load loaded successfully.
+07:55:02.557 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command loadpath loaded successfully.
+07:55:02.557 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command locate loaded successfully.
+07:55:02.558 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ls loaded successfully.
+07:55:02.559 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command msfconsole loaded successfully.
+07:55:02.559 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command netstat loaded successfully.
+07:55:02.560 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ping loaded successfully.
+07:55:02.560 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command python loaded successfully.
+07:55:02.560 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command resource loaded successfully.
+07:55:02.561 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command route loaded successfully.
+07:55:02.561 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command run loaded successfully.
+07:55:02.561 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command scp loaded successfully.
+07:55:02.562 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command search loaded successfully.
+07:55:02.562 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sessions loaded successfully.
+07:55:02.562 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command set loaded successfully.
+07:55:02.562 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command setg loaded successfully.
+07:55:02.562 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sftp-server loaded successfully.
+07:55:02.563 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sftp loaded successfully.
+07:55:02.563 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command show loaded successfully.
+07:55:02.563 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ssh-add loaded successfully.
+07:55:02.564 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ssh-agent loaded successfully.
+07:55:02.564 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ssh loaded successfully.
+07:55:02.565 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sshd loaded successfully.
+07:55:02.565 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sudo loaded successfully.
+07:55:02.565 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command touch loaded successfully.
+07:55:02.565 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command unload loaded successfully.
+07:55:02.566 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command unset loaded successfully.
+07:55:02.566 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command use loaded successfully.
+07:55:02.566 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command vim loaded successfully.
+07:55:02.648 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@604b1e1d
+07:55:02.658 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+07:55:02.690 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+07:55:02.692 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+07:55:02.693 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+07:55:02.695 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+07:55:02.698 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+07:55:02.704 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'graphRepository'
+07:55:02.718 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'traineeService'
+07:55:02.719 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'elasticsearchServiceApi'
+07:55:02.720 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'traineeGraphService'
+07:55:02.727 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'traineeGraphService' via constructor to bean named 'graphRepository'
+07:55:02.727 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'traineeGraphService' via constructor to bean named 'traineeService'
+07:55:02.727 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'traineeGraphService' via constructor to bean named 'elasticsearchServiceApi'
+SPRING_BEAN singleton=true production_class=true
+07:55:02.831 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Invoking method 'init' on target object [cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService@5df778c3] or target class [null] with arguments {}
+07:55:02.841 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command back loaded successfully.
+07:55:02.842 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command banner loaded successfully.
+07:55:02.842 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command cat loaded successfully.
+07:55:02.842 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command check loaded successfully.
+07:55:02.842 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command chmod loaded successfully.
+07:55:02.843 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command clear loaded successfully.
+07:55:02.843 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command color loaded successfully.
+07:55:02.843 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command connect loaded successfully.
+07:55:02.844 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command curl loaded successfully.
+07:55:02.844 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command echo loaded successfully.
+07:55:02.845 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command edit loaded successfully.
+07:55:02.845 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command exit loaded successfully.
+07:55:02.845 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command find loaded successfully.
+07:55:02.845 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command git loaded successfully.
+07:55:02.846 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command grep loaded successfully.
+07:55:02.846 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command grep loaded successfully.
+07:55:02.846 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command help loaded successfully.
+07:55:02.846 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ifconfig loaded successfully.
+07:55:02.847 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command info loaded successfully.
+07:55:02.847 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command irb loaded successfully.
+07:55:02.847 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command jobs loaded successfully.
+07:55:02.847 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command kill loaded successfully.
+07:55:02.848 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command less loaded successfully.
+07:55:02.848 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command load loaded successfully.
+07:55:02.848 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command loadpath loaded successfully.
+07:55:02.848 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command locate loaded successfully.
+07:55:02.849 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ls loaded successfully.
+07:55:02.849 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command msfconsole loaded successfully.
+07:55:02.849 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command netstat loaded successfully.
+07:55:02.849 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ping loaded successfully.
+07:55:02.850 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command python loaded successfully.
+07:55:02.850 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command resource loaded successfully.
+07:55:02.850 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command route loaded successfully.
+07:55:02.850 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command run loaded successfully.
+07:55:02.851 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command scp loaded successfully.
+07:55:02.851 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command search loaded successfully.
+07:55:02.851 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sessions loaded successfully.
+07:55:02.851 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command set loaded successfully.
+07:55:02.851 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command setg loaded successfully.
+07:55:02.851 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sftp-server loaded successfully.
+07:55:02.852 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sftp loaded successfully.
+07:55:02.852 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command show loaded successfully.
+07:55:02.852 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ssh-add loaded successfully.
+07:55:02.852 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ssh-agent loaded successfully.
+07:55:02.853 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ssh loaded successfully.
+07:55:02.853 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sshd loaded successfully.
+07:55:02.853 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sudo loaded successfully.
+07:55:02.854 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command touch loaded successfully.
+07:55:02.854 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command unload loaded successfully.
+07:55:02.854 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command unset loaded successfully.
+07:55:02.854 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command use loaded successfully.
+07:55:02.854 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command vim loaded successfully.
+07:55:02.857 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@895416d
+07:55:02.858 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+07:55:02.859 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+07:55:02.860 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+07:55:02.860 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+07:55:02.860 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+07:55:02.860 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+07:55:02.861 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'graphRepository'
+07:55:02.862 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'traineeService'
+07:55:02.862 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'elasticsearchServiceApi'
+07:55:02.862 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'traineeGraphService'
+07:55:02.863 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'traineeGraphService' via constructor to bean named 'graphRepository'
+07:55:02.863 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'traineeGraphService' via constructor to bean named 'traineeService'
+07:55:02.863 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'traineeGraphService' via constructor to bean named 'elasticsearchServiceApi'
+SPRING_BEAN singleton=true production_class=true
+07:55:02.877 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Invoking method 'init' on target object [cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService@77774571] or target class [null] with arguments {}
+07:55:02.886 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command back loaded successfully.
+07:55:02.886 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command banner loaded successfully.
+07:55:02.886 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command cat loaded successfully.
+07:55:02.887 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command check loaded successfully.
+07:55:02.887 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command chmod loaded successfully.
+07:55:02.887 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command clear loaded successfully.
+07:55:02.887 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command color loaded successfully.
+07:55:02.887 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command connect loaded successfully.
+07:55:02.888 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command curl loaded successfully.
+07:55:02.888 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command echo loaded successfully.
+07:55:02.888 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command edit loaded successfully.
+07:55:02.889 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command exit loaded successfully.
+07:55:02.889 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command find loaded successfully.
+07:55:02.889 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command git loaded successfully.
+07:55:02.889 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command grep loaded successfully.
+07:55:02.889 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command grep loaded successfully.
+07:55:02.890 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command help loaded successfully.
+07:55:02.890 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ifconfig loaded successfully.
+07:55:02.890 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command info loaded successfully.
+07:55:02.890 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command irb loaded successfully.
+07:55:02.890 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command jobs loaded successfully.
+07:55:02.890 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command kill loaded successfully.
+07:55:02.891 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command less loaded successfully.
+07:55:02.891 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command load loaded successfully.
+07:55:02.891 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command loadpath loaded successfully.
+07:55:02.891 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command locate loaded successfully.
+07:55:02.892 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ls loaded successfully.
+07:55:02.892 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command msfconsole loaded successfully.
+07:55:02.892 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command netstat loaded successfully.
+07:55:02.892 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ping loaded successfully.
+07:55:02.893 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command python loaded successfully.
+07:55:02.893 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command resource loaded successfully.
+07:55:02.893 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command route loaded successfully.
+07:55:02.893 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command run loaded successfully.
+07:55:02.893 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command scp loaded successfully.
+07:55:02.893 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command search loaded successfully.
+07:55:02.894 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sessions loaded successfully.
+07:55:02.894 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command set loaded successfully.
+07:55:02.894 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command setg loaded successfully.
+07:55:02.894 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sftp-server loaded successfully.
+07:55:02.894 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sftp loaded successfully.
+07:55:02.894 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command show loaded successfully.
+07:55:02.895 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ssh-add loaded successfully.
+07:55:02.895 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ssh-agent loaded successfully.
+07:55:02.895 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command ssh loaded successfully.
+07:55:02.895 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sshd loaded successfully.
+07:55:02.896 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command sudo loaded successfully.
+07:55:02.896 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command touch loaded successfully.
+07:55:02.896 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command unload loaded successfully.
+07:55:02.896 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command unset loaded successfully.
+07:55:02.896 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command use loaded successfully.
+07:55:02.897 [main] DEBUG cz.cyberrange.platform.training.feedback.service.MistakeAnalysisService - Command vim loaded successfully.
+07:55:02.899 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@277b8fa4
+07:55:02.900 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+07:55:02.901 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+07:55:02.902 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+07:55:02.902 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+07:55:02.902 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+07:55:02.902 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+07:55:02.903 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'graphRepository'
+07:55:02.904 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'traineeService'
+07:55:02.904 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'elasticsearchServiceApi'
+07:55:02.904 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'traineeGraphService'
+07:55:02.905 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'traineeGraphService' via constructor to bean named 'graphRepository'
+07:55:02.905 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'traineeGraphService' via constructor to bean named 'traineeService'
+07:55:02.905 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'traineeGraphService' via constructor to bean named 'elasticsearchServiceApi'
+SPRING_BEAN singleton=true production_class=true
+07:55:02.911 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Getting field 'achievedNodesLabels' from target object [cz.cyberrange.platform.training.feedback.service.graph.TraineeGraphService@c27a3a2] or target class [class cz.cyberrange.platform.training.feedback.service.graph.TraineeGraphService]
+SPRING_CAUSAL_A fresh_Bminus_GREEN=false
+SPRING_CAUSAL_B primed_Bminus_GREEN=true
+SPRING_CAUSAL_C cleared_Bminus_GREEN=false
+SPRING_CAUSAL_INTERVENTION removed_labels=7 result=PASS
+07:55:02.925 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@277b8fa4, started on Mon Oct 19 07:55:02 UTC 2026
+07:55:02.926 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@895416d, started on Mon Oct 19 07:55:02 UTC 2026
+07:55:02.926 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@604b1e1d, started on Mon Oct 19 07:55:02 UTC 2026
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.167 s -- in cz.cyberrange.platform.training.feedback.service.graph.[1mTraineeGraphSpringCausalTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 1, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  9.464 s
+[[1;34mINFO[m] Finished at: 2026-10-19T07:55:03Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
