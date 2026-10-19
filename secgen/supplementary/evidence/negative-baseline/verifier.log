@@ -1,0 +1,3 @@
+Running tests for mysql_stretch_compatible
+FAILED: mysqld process running? local command (ps -ef | grep mysqld) matches with output (/usr/sbin/mysqld) on mysql_stretch_test!
+

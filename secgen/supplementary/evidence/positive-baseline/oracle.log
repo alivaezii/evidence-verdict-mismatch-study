@@ -1,0 +1,3 @@
+SERVICE_STATE=active
+GENUINE_MYSQL_PID=28612
+EXECUTABLE=/usr/sbin/mysqld

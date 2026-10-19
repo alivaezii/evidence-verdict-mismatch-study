@@ -1,0 +1,3 @@
+Running tests for mysql_stretch_compatible
+FAILED: mysqld executable identity verified? local command (sudo -n /tmp/secgen_mysql_identity_check.sh) matches with output (SECGEN_MYSQL_IDENTITY_OK) on mysql_stretch_test!
+
