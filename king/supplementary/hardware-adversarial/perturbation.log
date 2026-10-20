@@ -1,0 +1,8 @@
+===== PERTURBED CONFIG =====
+40:2323 stream tcp nowait backdoor /usr/sbin/telnetd telnetd -E /usr/local/bin/telnet-shell.sh
+===== LISTENERS =====
+LISTEN 0      10           0.0.0.0:2323      0.0.0.0:*    users:(("inetutils-inetd",pid=2302,fd=4))
+LISTEN 0      128          0.0.0.0:22        0.0.0.0:*    users:(("sshd",pid=681,fd=3))            
+LISTEN 0      128             [::]:22           [::]:*    users:(("sshd",pid=681,fd=4))            
+===== CHALLENGE SHELL HASH =====
+b4e5ee9fabd39839f97541e4dc4c7c34478589b765f0777d0b46da33f8d399a5  /usr/local/bin/telnet-shell.sh

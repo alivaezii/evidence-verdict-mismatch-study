@@ -1,0 +1,15 @@
+===== HOST =====
+raspberrypi
+Linux raspberrypi 6.12.25+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.12.25-1+rpt1 (2025-04-30) aarch64 GNU/Linux
+===== INETD CONFIGURATION =====
+23:#<off># telnet	stream	tcp	nowait	root	/usr/sbin/tcpd	/usr/sbin/telnetd
+40:telnet stream tcp nowait backdoor /usr/sbin/telnetd telnetd -E /usr/local/bin/telnet-shell.sh
+===== NETWORK LISTENERS =====
+LISTEN 0      128          0.0.0.0:22        0.0.0.0:*    users:(("sshd",pid=681,fd=3))           
+LISTEN 0      10           0.0.0.0:23        0.0.0.0:*    users:(("inetutils-inetd",pid=569,fd=4))
+LISTEN 0      128             [::]:22           [::]:*    users:(("sshd",pid=681,fd=4))           
+===== INETD SERVICE =====
+active
+===== CHALLENGE SHELL =====
+-rwxr-xr-x 1 root root 102 Sep 23 19:07 /usr/local/bin/telnet-shell.sh
+b4e5ee9fabd39839f97541e4dc4c7c34478589b765f0777d0b46da33f8d399a5  /usr/local/bin/telnet-shell.sh

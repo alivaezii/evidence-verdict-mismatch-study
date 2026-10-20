@@ -1,0 +1,4 @@
+BASELINE_RESTORED=yes
+LISTEN 0      128          0.0.0.0:22        0.0.0.0:*    users:(("sshd",pid=681,fd=3))            
+LISTEN 0      10           0.0.0.0:23        0.0.0.0:*    users:(("inetutils-inetd",pid=2136,fd=4))
+LISTEN 0      128             [::]:22           [::]:*    users:(("sshd",pid=681,fd=4))            
